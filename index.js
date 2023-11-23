@@ -4,7 +4,7 @@ require('dotenv-flow').config()
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.end('Hello Node! Genup \nSECRET KEY = ' + process.env.SECRET_KEY);
+  res.end('Hello Node! Genup 2.1 \nSECRET KEY = ' + process.env.SECRET_KEY);
 });
 
 server.listen(port, () => {
